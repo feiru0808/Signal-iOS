@@ -257,7 +257,7 @@ NS_ASSUME_NONNULL_BEGIN
                                                    attributes:nil
                                                         error:&error];
         if (error) {
-            OWSFailDebug(@"Failed to create directory: %@, error: %@", dirPath, error);
+            //OWSFailDebug(@"Failed to create directory: %@, error: %@", dirPath, error);
             return NO;
         }
         return [self protectFileOrFolderAtPath:dirPath fileProtectionType:fileProtectionType];

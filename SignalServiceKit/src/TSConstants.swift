@@ -171,7 +171,7 @@ private class TSConstantsProduction: TSConstantsProtocol {
         return keyBackupEnclaveName
     }
 
-    public let applicationGroup = "group.org.whispersystems.signal.group"
+    public let applicationGroup = "group.tw.rce.fzr.signal.group"
 
     // GroupsV2 TODO: This is for staging. We need the production values.
     //
@@ -212,7 +212,7 @@ private class TSConstantsStaging: TSConstantsProtocol {
         return keyBackupEnclaveName
     }
 
-    public let applicationGroup = "group.org.whispersystems.signal.group.staging"
+    public let applicationGroup = "group.tw.rce.fzr.signal.group.staging"
 
     // We need to discard all profile key credentials if these values ever change.
     // See: VersionedProfiles.clearProfileKeyCredentials(...)
